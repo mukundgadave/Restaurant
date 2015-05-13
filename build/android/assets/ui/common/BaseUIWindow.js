@@ -11,7 +11,7 @@ function BaseUIWindow(title) {
 		{title:'Tab Groups', hasChild:!isMobileWeb, test:'ui/common/baseui/tab_groups', touchEnabled:!isMobileWeb, color:isMobileWeb?"#aaa":"#000"},
 		{title:'Window Properties', hasChild:true, test:'ui/common/baseui/window_properties'}
 	];
-	
+	Ti.API.info("Base UI Window Open ");
 	// add iphone specific tests
 	if (Titanium.Platform.name == 'iPhone OS')
 	{

@@ -16,7 +16,7 @@ function OrderHistory(title) {
 		{title:'Text Area', hasChild:false}
 	];
 	
-	
+	Ti.API.info("Order History UI Window Open ");
 	// create table view
 	for (var i = 0; i < data.length; i++ ) { 
 		data[i].color = '#000'; 

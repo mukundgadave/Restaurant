@@ -48,6 +48,7 @@ function ApplicationTabGroup() {
 	if (Ti.Platform.osname === 'iphone') {
 		messageWin.orientationModes = [Ti.UI.PORTRAIT];
 	}
+	
 
 	var messageView = Titanium.UI.createView({
 		id:'messageview',
